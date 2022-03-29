@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Parisienne&display=swap');
 .App {
   text-align: center;
 }
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(#0848c7, #7ba1ee);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,33 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Parisienne', cursive;
+}
+
+.login {
+  font-family: 'Lobster', cursive;
+}
+
+.email {
+  width: 20%;
+  height: 10%;
+  border-radius: 10px;
+}
+
+.pass {
+  width: 15%;
+  height: 10%;
+  border-radius: 10px;
+}
+
+.logar {
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 10%;
+  height: 15%;
+  font-family: 'Lobster', cursive;
+  background-color: #0848c7;
+  color: #fff;
 }
 
 .App-link {
