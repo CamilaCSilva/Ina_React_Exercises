@@ -5,10 +5,13 @@ import App from './App';
 import Soma from './Soma';
 import Login from './Login';
 import reportWebVitals from './reportWebVitals';
+import Calculadora from './Calculadora';
+import {Pai,Filho} from './Pai';
+import {Input} from './Input';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Input />
   </React.StrictMode>,
   document.getElementById('root')
 );
